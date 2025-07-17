@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kratos Sports</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgba(255, 255, 255, 0.154)
+    }
+    header {
+      background-color: black;
+      color: gold;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: gold;
+      overflow: hidden;
+      text-align: center;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 20px;
+      
+    }
+    nav a:hover {
+      background-color: #f21919;
+    }
+    .container {
+      padding: 10px;
+      background-color:white;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      background-color: rgb(45, 45, 39);
+    }
+    .product {
+      background-color: #ede84d;
+      margin: 10px;
+      padding: 15px;
+      border-radius: 4px;
+      width: calc(33% - 20px); 
+    }
+    .product img {
+      width: 25%;
+      height:30o;
+      border-radius: 6px;
+    }
+    footer {
+      background-color: #111;
+      color: gold;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    @media (max-width: 768px) {
+      .product {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Kratos Sports</h1>
+    <p>Your One-Stop Shop for All Sports Gear 🏀🏏⚽🏸🥎</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="container" id="home">
+   <h2 style="text-align:c"><marquee>WELCOME</marquee></h2>
+         <h2 style="text-align:c"><marquee>TO Kratos Sports</marquee></h2>
+    <p><marquee>🏀🏏⚽🏸🥎Discover Top-quality Sportswear, Accessories,& Gear for Every Game🏀🏏⚽🏸🥎</marquee></p>
+  </div>
+    <div class="container" id="products">
+    <h2>Our Top Products</h2>
+    <div class="products">
+       <div class="product">
+        <img src="https://m.media-amazon.com/images/I/81RcpSRm-oL.jpg" alt="Football">
+        <h3>Football</h3>
+        <p>High-quality FIFA footballs for pros Players.</p>
+        <p>Make The Ball Your's And Be The Next Champion @ 99.25$</p>
+      </div>
+      <div class="product">
+        <img src="https://cdn-d03d5231-5b2e278c.commercebuild.com/cf738e9579802e6b988bb225ca6bc00c/contents/2A25471C/thumbnail/middle_2A25471C-Stealth-1_1-Shadow.jpg" alt="Cricket Bat">
+        <h3>Cricket Bat</h3>
+        <p>Premium willow cricket bats used by international players.</p>
+        <p>Grap Your Bat Before The Sale End!!</p>
+        <p>Only 74.99$ For each Bat,Hurry!</p>
+      </div>
+      <div class="product">
+        <img src="https://www.tenniswarehouse.com.au/media/catalog/product/cache/1/small_image/412x/9df78eab33525d08d6e5fb8d27136e95/1/0/101479-pure_aero-370-1-face.1661830164.jpg" alt="Tennis Racket">
+        <h3>Tennis Racket</h3>
+        <p>Lightweight and powerful rackets for Our Future Novak Djokovic</p>
+        <p>Grip Your Own Racket @ Only 149.99$</p>
+      </div>
+      <div class="product">
+        <img src="https://rukminim2.flixcart.com/image/612/612/jmux18w0/ball/p/z/p/300-500-top-grip-basketball-s-7-double-action-pump-7-36-2-original-imaf9nzcsegh52gb.jpeg?q=70" alt="Basketball">
+        <h3>Basketball</h3>
+        <p>The court's calling. Answer with Bounce into action</p>
+        <p>Grap Your Shoot's and Score @ 89.25$
+
+      </div>
+    </div>
+  </div>
+  <footer>
+  <div class="container-contact=box">
+    <h2>Contact Us </h2>
+    <p><strong>Email:</strong> support@kratossports.com</p>
+    <p><strong>Phone:</strong> +91-7826993366</p>
+    <p><strong>Visit us:</strong>No-345/6,TR Road,Anna nagar,Chennai,INDIA</p>
+  </div>
+  </footer>
+</body>
+</html>
